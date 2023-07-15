@@ -64,7 +64,7 @@ Widget gostergeNem() {
   );
 }
 
-Widget gostergeBatarya() {
+Widget gostergeFahrenayt() {
   return Container(
     width: 330,
     decoration: BoxDecoration(
@@ -236,7 +236,7 @@ class _MyHomeState extends State<MyHome> {
           items: [
             gostergeSicaklik(),
             gostergeNem(),
-            gostergeBatarya(),
+            gostergeFahrenayt(),
             gostergeIsik(),
           ].map((item) => item).toList(),
           options: CarouselOptions(
